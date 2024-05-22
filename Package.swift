@@ -13,14 +13,14 @@ let package = Package(
     products: [
         .library(
             name: "Plot",
-            targets: ["Plot"]
+            targets: ["GSKPlot"]
         )
     ],
     targets: [
-        .target(name: "Plot"),
+        .target(name: "GSKPlot"),
         .testTarget(
             name: "PlotTests",
-            dependencies: ["Plot"]
+            dependencies: ["GSKPlot"]
         )
     ]
 )
