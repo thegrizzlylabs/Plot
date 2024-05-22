@@ -17,7 +17,7 @@ let package = Package(
         )
     ],
     targets: [
-        .target(name: "GSKPlot"),
+        .target(name: "GSKPlot", path: "Plot"),
         .testTarget(
             name: "PlotTests",
             dependencies: ["GSKPlot"]
